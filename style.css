@@ -79,6 +79,7 @@ nav.navbar {
   height: 250px;
   border: #ffd60a 2px solid;
   margin: 10px !important;
+  background-color: #fff;
 }
 .box {
   margin: 20px !important;
@@ -92,7 +93,7 @@ nav.navbar {
 .box i {
   font-size: 4rem;
 }
-.card h3 {
+.card-1 h3 {
   font-size: larger;
   text-align: center;
 }
@@ -186,7 +187,7 @@ nav.navbar {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .card {
+  .card-1 {
     width: 200px;
   }
 }
