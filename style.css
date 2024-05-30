@@ -74,6 +74,7 @@ nav.navbar {
 /* Main Section Started */
 .main {
   background-color: #90e0ef !important;
+  overflow: hidden;
 }
 .card-1 {
   height: 250px;
@@ -127,7 +128,7 @@ nav.navbar {
 /* Company Logo */
 /* Card 2 */
 .card-2 {
-  height: 500px;
+  height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,8 +145,8 @@ nav.navbar {
   align-items: center;
 }
 .circle-icon img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
 }
 .card-2 p {
   font-weight: bold;
@@ -163,12 +164,13 @@ nav.navbar {
 
 /* Product */
 .product {
-  height: 80vh;
+  padding-bottom: 30px;
   background-color: #ffecd1 !important;
 }
 .btn-full-width {
   width: 100%;
 }
+
 /* Product */
 
 /* Responsive Styles for Hero Section */
@@ -183,6 +185,9 @@ nav.navbar {
   }
   .box i {
     font-size: 2rem;
+  }
+  .product {
+    height: 90vh;
   }
 }
 
