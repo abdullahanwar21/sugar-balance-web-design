@@ -1,0 +1,192 @@
+/* Header Started */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #90e0ef;
+  height: 6rem;
+  padding: 0 6rem;
+}
+header img {
+  height: 320px;
+  width: 320px;
+  object-fit: contain;
+}
+.second-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.advertise {
+  height: 5rem;
+  width: 100%;
+  background-color: red;
+}
+.advertisement {
+  display: flex;
+  align-items: center;
+  /* width: 220px;
+  height: 100%; */
+  /* margin: 0 12px; */
+}
+.circle i {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+.box-2 {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.advertisement h2,
+h4 {
+  margin: 0;
+}
+/* Header Ended */
+
+/* Navbar Started */
+nav.navbar {
+  position: relative !important;
+  top: -15% !important;
+  border-radius: 1rem;
+  margin-top: -20px;
+}
+.nav-item {
+  text-transform: uppercase !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+/* Navbar Ended */
+
+/* Hero Section Started */
+.hero {
+  height: 86vh;
+  width: 100%;
+  background: url("./assets/hero-img.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -36px;
+  z-index: -100;
+}
+/* Hero Section Ended */
+
+/* Main Section Started */
+.main {
+  background-color: #90e0ef !important;
+}
+.card-1 {
+  height: 250px;
+  border: #ffd60a 2px solid;
+  margin: 10px !important;
+}
+.box {
+  margin: 20px !important;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd60a !important;
+  border-radius: 10px;
+}
+.box i {
+  font-size: 4rem;
+}
+.card h3 {
+  font-size: larger;
+  text-align: center;
+}
+.order-btn {
+  display: flex;
+  justify-content: center;
+}
+.cart-icon {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+.cart-icon i {
+  font-size: 2.6rem;
+  color: #fff;
+}
+/* Company Logo */
+.company-logo {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.company-logo img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+/* Company Logo */
+/* Card 2 */
+.card-2 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.circle-icon {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-icon img {
+  height: 120px;
+  width: 120px;
+}
+.card-2 p {
+  font-weight: bold;
+  letter-spacing: 0;
+}
+/* Card 2 */
+
+/* Main Section Ended */
+/* Content */
+.content p {
+  font-size: larger;
+  font-weight: 600;
+}
+/* Content */
+
+/* Product */
+.product {
+  height: 80vh;
+  background-color: #ffecd1 !important;
+}
+.btn-full-width {
+  width: 100%;
+}
+/* Product */
+
+/* Responsive Styles for Hero Section */
+@media (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    height: 220px;
+    width: 220px;
+    object-fit: contain;
+  }
+  .box i {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card {
+    width: 200px;
+  }
+}
