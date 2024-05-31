@@ -46,8 +46,6 @@ h4 {
 
 /* Navbar Started */
 nav.navbar {
-  position: relative !important;
-  top: -15% !important;
   border-radius: 1rem;
   margin-top: -20px;
 }
@@ -65,7 +63,6 @@ nav.navbar {
   width: 100%;
   background: url("./assets/hero-img.png") no-repeat;
   background-size: cover;
-  position: relative;
   margin-top: -36px;
   z-index: -100;
 }
@@ -170,7 +167,6 @@ nav.navbar {
 .btn-full-width {
   width: 100%;
 }
-
 /* Product */
 
 /* Responsive Styles for Hero Section */
@@ -186,8 +182,15 @@ nav.navbar {
   .box i {
     font-size: 2rem;
   }
-  .product {
-    height: 90vh;
+  .hero {
+    background-position: center;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: large;
+    font-weight: 900;
   }
 }
 
